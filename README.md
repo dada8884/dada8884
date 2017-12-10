@@ -1,37 +1,25 @@
-## Welcome to GitHub Pages
+Music Player for Google Drive
+=============================
 
-You can use the [editor on GitHub](https://github.com/dada8884/dada8884/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Music Player for Google Drive is a simple and lightweight online music player for your audio files stored in Google Drive. Its is entirely client side and does not require any server side component.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+It's available [in the Chrome Web Store](https://chrome.google.com/webstore/detail/music-player-for-google-d/hnfeekfpnjbdmelcapngdgkjnhgijjkh) or you can simply visit www.driveplayer.com.
 
-### Markdown
+It looks like this:
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+![Music Player for Google Drive](https://github.com/nicolasgarnier/drive-music-player/raw/master/cws/screenshot_small_1.png)
 
-```markdown
-Syntax highlighted code block
+It features open-with functionality from Google Drive:
 
-# Header 1
-## Header 2
-### Header 3
+![Open-with from Google Drive](https://github.com/nicolasgarnier/drive-music-player/raw/master/cws/screenshot_small_2.png)
 
-- Bulleted
-- List
+As well as the following features:
 
-1. Numbered
-2. List
+  * Playback of MP3 files, MP4, OGG (Audio), WAV (very partial), ACC (iTune's .m4a files), webm (Audio).
+  * Support for ID3 tags v1 and v2as well as AAC file Tags.
+  * Automatic display of Album covers.
+  * Handles users signed-in multiple Google account elegantly.
+  * Open Audio files directly from the Google Drive UI.
 
-**Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/dada8884/dada8884/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+> Note: This is not an official Google Product. This is a sample application demonstrating how to build a fully client side Google Drive application. It is currently deployed and running and is supported on a best effort basis.
